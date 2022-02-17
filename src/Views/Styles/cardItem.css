@@ -1,0 +1,11 @@
+.containerCard{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    height: 50vh;
+    background-color: blueviolet;
+}

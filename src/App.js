@@ -1,9 +1,16 @@
-import './App.css';
-import { NavBar } from './Views/NavBar';
+import "./App.css";
+import ListCards from "./Views/Components/ListCards";
+import Footer from "./Views/Components/Footer";
+
+import NavBar from "./Views/Components/NavBar";
 
 function App() {
   return (
-    <NavBar/>
+    <div>
+        <NavBar/>
+        <ListCards/>
+        <Footer/>
+    </div>
     
   );
 }

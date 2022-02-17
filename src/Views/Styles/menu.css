@@ -1,0 +1,33 @@
+.menuCont{
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    text-decoration: none;
+    list-style: none;
+    width: 60%;
+    height: 70%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: #6c715f;
+    align-items: center;
+    
+    font-family: Cochin;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.show{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+   
+    max-width: 100%;
+    
+  }
+    
+.hide{
+    display: none;
+ }

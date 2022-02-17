@@ -14,7 +14,7 @@ const Contexto = () => {
     const [book, setBook] = useState([]);
     useEffect(() => {
         const app = async () => {
-            fetch("https://www.etnassoft.com/api/v1/get/?all_tags=[comics]&order=newest")
+            fetch("https://www.etnassoft.com/api/v1/get/?num_items=15")
                 .then((res) => res.json())
                 .then((result) => { setBook(result) })
         };
@@ -25,16 +25,16 @@ const Contexto = () => {
     return (
         <main className={cardStyle.containerCard}>
 
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, justifyContent: 'center', alignContent: 'center'}}>
+            <Box sx={{ width: '90%', display: 'flex', flexWrap: 'wrap', gap: 25, justifyContent: 'center', alignContent: 'center' }}>
                 {book.map((item) => (
-                    <Card sx={{ maxWidth: 300 }}>
+                    <Card sx={{ maxWidth: 325 }}>
                         <CardMedia
                             component="img"
-                            height="500"
-                            image={item.thumbnail}
+                            maxheight="200"
+                            image={item.cover}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h6" component="div">
                                 {item.title}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
@@ -48,6 +48,8 @@ const Contexto = () => {
                     </Card>
                 ))}
             </Box>
+
+          
 
             {/*  {book.map((item) => (
                     <CardItem

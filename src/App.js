@@ -1,9 +1,14 @@
-import './App.css';
+import { Footer } from './Views/Footer';
+import { Contexto } from './Views/contexto';
 import { NavBar } from './Views/NavBar';
 
 function App() {
   return (
-    <NavBar/>
+    <div>
+        <NavBar/>
+        <Footer/>
+        <Contexto/>
+    </div>
     
   );
 }

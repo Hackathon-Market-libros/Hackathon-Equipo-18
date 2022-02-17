@@ -1,11 +1,13 @@
+import navStyle from './NavBar.module.css'
+
 const NavBar = () => {
 
-
-
     return(
-        <div>
-            Hola soy div
-        </div>
+        <header className={navStyle.nav}>
+            <nav>
+                librother.com
+            </nav>
+        </header>
     );
 }
 

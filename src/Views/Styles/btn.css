@@ -1,0 +1,15 @@
+.svgNav{
+    position: absolute;
+    z-index: 300;
+    top: 33%;
+    right: 2%;
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    fill:#fff;
+}
+.svgContainer{
+    padding: 0 18px 0 15px;
+    background: transparent;
+    border: none;
+}

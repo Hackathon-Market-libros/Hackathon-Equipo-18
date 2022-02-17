@@ -35,8 +35,8 @@ const ListCards = () => {
                         <CardMedia 
                             
                             component="img"
-                            height="500"
-                            image={item.thumbnail}
+                            height="300"
+                            image={item.cover}
                         />
 
                         <CardContent >

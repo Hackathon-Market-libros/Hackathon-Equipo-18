@@ -1,65 +1,62 @@
 <h1> CONSTRUYE TU PROPIO MARKETPLACE </h1>
 
-:white_square_button:
+<h2>Hackathon F5 2022</br></h2>
 
-<h2>Hackathon F5 2022 💻 </br></h2>
 
-🇦🇷
-🇨🇴
-🇪🇸
-:argentina:
-:es:
-:colombia:
+
 
 <h1>SCRUM TEAM</h1>
-<p>Erika Natalia Martin</p> 
-<p>Daniela Tobar Moreno</p> 
-<p>Rocio centurion</p>
-<p>Miquel Cruz</p> 
-<p>Rubén Bertólez</p> 
-<p>José F. Jiménez</p>
+<img src= "https://user-images.githubusercontent.com/97111500/154486992-6634c132-945a-420b-a498-e1cc9dfa07ea.png"
+min-width="15px" max-width="15px" width="15px" align="left" alt="Computador"><p>Erika Natalia Martin</p> 
+<img src= "https://user-images.githubusercontent.com/97111500/154486992-6634c132-945a-420b-a498-e1cc9dfa07ea.png"
+min-width="15px" max-width="15px" width="15px" align="left" alt="Computador"><p>Daniela Tobar Moreno</p> 
 
+<img src= "https://user-images.githubusercontent.com/97111500/154491951-799bd69b-7770-4ecd-adb6-85ff0630a8c0.png" min-width="16px" max-width="16px" width="16px" align="left" alt="Computador"><p>Rocio G. Centurion</p>
 
+<img src= "https://user-images.githubusercontent.com/97111500/154489076-b3b76ed6-0968-4334-978f-de62f3f02933.png" min-width="15px" max-width="15px" width="15px" align="left" alt="Computador"><p>Miquel Cruz</p> 
+<img src= "https://user-images.githubusercontent.com/97111500/154489076-b3b76ed6-0968-4334-978f-de62f3f02933.png" min-width="15px" max-width="15px" width="15px" align="left" alt="Computador"><p>Rubén Bertólez</p> 
+<img src= "https://user-images.githubusercontent.com/97111500/154486992-6634c132-945a-420b-a498-e1cc9dfa07ea.png"
+min-width="15px" max-width="15px" width="15px" align="left" alt="Computador"><p>José F. Jiménez</p>
+
+<p>El proyecto fué desarrollado dentro del evento ¨Hackathon-2022¨ organizado por Factoría F5, al que fueron invitados estudiantes de escuelas Españolas y Colombianas. Los equipos de trabajo fueron designados por la organización de la Hackathon quedando conformados por alumnos de varias escuelas y nacionalidades.</br></br>Como empresa colaboradora participó "Adevinta Spain¨, quienes propusieron la creación de un ¨Marketplace¨ como tema a desarrollar dentro del evento. </br></br></p>
 
 <h2>Objetivo del proyecto</h2>
-<p> Se propone crear un sitio Web que reúna a vendedores y compradores de libros usados. </br></br> El proyecto fue desarrollado dentro del evento ¨Hackaton-2022¨ organizado por Factoría F5. </br></br>Como empresa colaboradora participo "Adevinta Spain¨, quienes propusieron al ¨Marketplace¨ como tema a desarrollar dentro del evento. </br></br></p>
+<p> Se propone crear un sitio Web que reúna a vendedores y compradores de libros usados.</br></p> 
 
 <h2> Requerimientos </h2>
 
-El proyecto tendrá un solo sprint. 
+<p>El proyecto tendrá un solo sprint y el tema, es decir, producto, target, etc..., es de libre elección por parte del equipo. 
 
-El tema, es decir producto, target, etc, es de libre eleccion por parte del equipo. 
-
-La pagina debe contar con:</br></br>
- Listado de anuncios.</br></br>
- Por lo menos un anuncio del listado debe tener detalle. 
-
+La página debe contar con:</br></br>
+ -Listado de anuncios.</br></br>
+ -Por lo menos un anuncio del listado debe tener detalle. 
+</br></br>
 Como funcionalidades extras se sugiere:</br></br>
--Busquedas.</br></br>
+-Búsquedas.</br></br>
 -Contacto.</br></br>
 -Favoritos. </br></br>
--Otras a libre eleccion. </br></br>
+-Otras a libre elección. </br></br></p>
     
+<h2>Desarrollo</h2>
 
-<p>La ejecucion del proyecto se planteo mediante un Product Backlog elaborado en Trello https://trello.com/b/Bj4FsSUo/librother</p>
+<p>La ejecución del proyecto se planteó mediante un Product Backlog elaborado en Trello https://trello.com/b/Bj4FsSUo/librother</p>
 
-![Backlog]images.
+<img src= "https://user-images.githubusercontent.com/97111500/154499217-82957b8d-a9a6-45f8-85d1-c8d85d6b0b92.png" min-width="450px" max-width="450px" width="450px" align="center" alt="Computador"></br></br>
 
-<p>El desarrrollo se realizo con : React</p>
-
-Con los mui
-
-El contenido se realizo consumiendo el api  
-
-<p>A fin de hacer la Web responsive, utilizo el metodo </p>
+<p>El diseño fue elaborado en Figma</p>
 
 
+<img src= "https://user-images.githubusercontent.com/97111500/154504604-b82357f8-75c4-4864-a3fe-d43008ef054c.png" min-width="200px" max-width="200px" width="200px" align="center" alt="Computador"></br></br>
 
 
-<p>Se consultaron fuentes de informacion disponibles en:</br>
+<p>La construcción del sitio se realizó con ReactApp <img src="https://user-images.githubusercontent.com/97111500/154511207-4f81cf14-621e-4b5c-aae8-3dffc219ceeb.png" min-width="20px" max-width="20px" width="20px" align="center" alt="Computador"> con uso de componentes disponibles en https://mui.com y la data correspondiente se obtiene consumiendo el api de https://openlibra.com/es/page/public-api .</p>  
+
+<p>El sitio es responsive con el uso de de los componentes flex disponibles en https://mui.com </p>
+
+<p>Se consultaron fuentes de información en:</br>
 developer.mozilla.org</br>
 stackoverflow.com</br>
-https://www.youtube....
+flaticon.com/free-icons</br> 
 </p> 
 
 

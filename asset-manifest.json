@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Hackathon-Equipo-18/static/css/main.93c162d4.css",
+    "main.js": "/Hackathon-Equipo-18/static/js/main.88362a99.js",
+    "static/js/787.2676f16e.chunk.js": "/Hackathon-Equipo-18/static/js/787.2676f16e.chunk.js",
+    "static/media/cover.jpg": "/Hackathon-Equipo-18/static/media/cover.7ed0dfcf1a8264e3e2a8.jpg",
+    "static/media/logo3.png": "/Hackathon-Equipo-18/static/media/logo3.7bd0d64078a97db3033c.png",
+    "index.html": "/Hackathon-Equipo-18/index.html",
+    "main.93c162d4.css.map": "/Hackathon-Equipo-18/static/css/main.93c162d4.css.map",
+    "main.88362a99.js.map": "/Hackathon-Equipo-18/static/js/main.88362a99.js.map",
+    "787.2676f16e.chunk.js.map": "/Hackathon-Equipo-18/static/js/787.2676f16e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93c162d4.css",
+    "static/js/main.88362a99.js"
+  ]
+}

@@ -1,3 +1,69 @@
+<h1> CONSTRUYE TU PROPIO MARKETPLACE </h1>
+
+:white_square_button:
+
+<h2>Hackathon F5 2022 💻 </br></h2>
+
+🇦🇷
+🇨🇴
+🇪🇸
+:argentina:
+:es:
+:colombia:
+
+<h1>SCRUM TEAM</h1>
+<p>Erika Natalia Martin</p> 
+<p>Daniela Tobar Moreno</p> 
+<p>Rocio centurion</p>
+<p>Miquel Cruz</p> 
+<p>Rubén Bertólez</p> 
+<p>José F. Jiménez</p>
+
+
+
+<h2>Objetivo del proyecto</h2>
+<p> Se propone crear un sitio Web que reúna a vendedores y compradores de libros usados. </br></br> El proyecto fue desarrollado dentro del evento ¨Hackaton-2022¨ organizado por Factoría F5. </br></br>Como empresa colaboradora participo "Adevinta Spain¨, quienes propusieron al ¨Marketplace¨ como tema a desarrollar dentro del evento. </br></br></p>
+
+<h2> Requerimientos </h2>
+
+El proyecto tendrá un solo sprint. 
+
+El tema, es decir producto, target, etc, es de libre eleccion por parte del equipo. 
+
+La pagina debe contar con:</br></br>
+ Listado de anuncios.</br></br>
+ Por lo menos un anuncio del listado debe tener detalle. 
+
+Como funcionalidades extras se sugiere:</br></br>
+-Busquedas.</br></br>
+-Contacto.</br></br>
+-Favoritos. </br></br>
+-Otras a libre eleccion. </br></br>
+    
+
+<p>La ejecucion del proyecto se planteo mediante un Product Backlog elaborado en Trello https://trello.com/b/Bj4FsSUo/librother</p>
+
+![Backlog]images.
+
+<p>El desarrrollo se realizo con : React</p>
+
+Con los mui
+
+El contenido se realizo consumiendo el api  
+
+<p>A fin de hacer la Web responsive, utilizo el metodo </p>
+
+
+
+
+<p>Se consultaron fuentes de informacion disponibles en:</br>
+developer.mozilla.org</br>
+stackoverflow.com</br>
+https://www.youtube....
+</p> 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

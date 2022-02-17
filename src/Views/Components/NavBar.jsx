@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../Styles/NavBar.css';
 import logo from '../../media/logo3.png';
+
 import Btn from './Btn';
 import Menu from './menu';
 
@@ -18,8 +19,9 @@ const NavBar = () => {
                 <img className="logo" src={logo} alt="Librother.com" />
                 <Btn onToggle={handleToggle}/>
                 <Menu show={toggle}/>
-            </nav>
+            </nav>          
         </header>
+        
     );
 }
 

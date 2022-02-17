@@ -17,9 +17,10 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    height: 50vh;
-    row-gap: 5vh;
+    height: 12vh;
+    row-gap: 2vh;
     display: flex;
+    align-content: flex-end;
   }
     
 .hide{

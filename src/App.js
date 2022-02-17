@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
         <NavBar/>
+        <ListCards/>
         <Footer/>
-       <ListCards/>
     </div>
     
   );

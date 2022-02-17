@@ -5,8 +5,9 @@ const Menu = (props) => {
 
     return (
         <ul className={`${"menuCont"} ${show ? "show" : "hide"}`}>
-            <li>Contácto</li>
-            <li>Ver Libros</li>
+            <li>Inicio</li>
+            <li>Favoritos</li>
+            <li>Contacto</li>
         </ul>
     );
 }

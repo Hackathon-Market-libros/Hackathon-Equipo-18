@@ -1,14 +1,15 @@
-import navStyle from './NavBar.module.css'
+import React from "react";
+import "../Styles/NavBar.css";
 
 const NavBar = () => {
 
     return(
-        <header className={navStyle.nav}>
+        <header className='.nav'>
             <nav>
                 librother.com
             </nav>
         </header>
     );
-}
+};
 
-export {NavBar}
+export default NavBar;

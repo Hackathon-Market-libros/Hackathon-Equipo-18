@@ -1,4 +1,5 @@
-import cardStyle from '../CardItem/cardItem.module.css'
+import React from "react";
+import "../Styles/cardItem.css";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -9,7 +10,8 @@ import Box from '@mui/material/Box'
 // import { CardItem } from "../CardItem";
 import { useEffect, useState } from "react";
 
-const Contexto = () => {
+
+const ListCards = () => {
 
     const [book, setBook] = useState([]);
     useEffect(() => {
@@ -23,17 +25,21 @@ const Contexto = () => {
     }, []);
 
     return (
-        <main className={cardStyle.containerCard}>
+        <main className='containerCard'>
 
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, justifyContent: 'center', alignContent: 'center'}}>
                 {book.map((item) => (
-                    <Card sx={{ maxWidth: 300 }}>
-                        <CardMedia
+                   
+                    <Card  sx={{ maxWidth: 300 }}>
+                         
+                        <CardMedia 
+                            
                             component="img"
                             height="500"
                             image={item.thumbnail}
                         />
-                        <CardContent>
+
+                        <CardContent >
                             <Typography gutterBottom variant="h5" component="div">
                                 {item.title}
                             </Typography>
@@ -43,7 +49,8 @@ const Contexto = () => {
                         </CardContent>
                         <CardActions>
                             <Button size="small">Buy</Button>
-                            <Button size="small">Learn More</Button>
+                            <Button size="small" data-rel="dialog" data-transition="Flip">Learn More</Button>
+                            
                         </CardActions>
                     </Card>
                 ))}
@@ -63,4 +70,4 @@ const Contexto = () => {
 
 }
 
-export { Contexto }
+export default ListCards;
